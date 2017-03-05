@@ -1,8 +1,7 @@
 module.exports = require('rc')('gittorrent', {
   dht: {
     bootstrap: [
-      'dht.gittorrent.org:6881',
-      'core.gittorrent.org:6881'
+      '192.168.174.128:6881'
     ],
     listen: 6881,
     announce: 30000
